@@ -13,11 +13,17 @@ and data privacy via end to end encryption.
 - After successfull on-chain signature verificaton, Parcel contract swaps the chosen currency to the selected currencies of the recievers and streams it with the given information in one 
 transaction.
 
+<img src="https://i.imgur.com/RXUFKqy.jpg" height="500" width="70%">
+
 ## Features 
 - Non custodial payments management service
 - Create and manage custom groups or individual(s) on simple to use dashboard.
 - Pay via ENS addresses. 
 - Data secured by end to end encryption i.e Only you and your trusted authorities can decrypt the data on their client side through 
 public key cryptography.
+
+
+
+
 
 
