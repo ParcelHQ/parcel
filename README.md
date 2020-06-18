@@ -1,7 +1,7 @@
 # Parcel - Next Generation Crypto Payments
 The most seamless and decentralised payments streaming service - Built on Sablier protocol.
 
-<img src="https://i.imgur.com/6agXsTk.png" width="100%">
+<img src="https://i.imgur.com/VDfOgsF.png" width="100%">
   
 ## Overview 
 Parcel is a service to manage continuous payments using multiple token swaps and money streaming for a group of people in one tap. It ensures on-chain payment approval from trusted authorities and data privacy via end to end encryption.
