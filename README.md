@@ -1,5 +1,5 @@
 # Parcel - Next Generation Crypto Payments
-The most seamless and decentralised payments streaming service - Built on Sablier protocol.
+The most seamless and decentralised payments streaming service - built on Sablier Protocol.
 
 <img src="https://i.imgur.com/VDfOgsF.png" width="100%">
   
