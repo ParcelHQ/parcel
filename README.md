@@ -36,6 +36,18 @@ Decentralised streaming protocol Sablier enables financial settlements as a func
 
 However, the current scenario in decentralised payment streaming services lack the ability to conveniently manage custom use cases resulting in slow rate of adoption. We believe the space needs a seamless, secure, decentralised and end to end encrypted payment streaming service. 
 
+## Components 
+[Parcel Wallet :- Built at Hack Money Hackathon 2020](https://github.com/ParcelHQ/parcel-wallet)
+
+## References
+- [EIP-1620](https://eips.ethereum.org/EIPS/eip-1620)
+- [Andreas Antonopoulos’ Keynote on Bitcoin, Lightning and Money Streaming](https://www.youtube.com/watch?v=gF_ZQ_eijPs)
+- [Issues with data privacy in centralised systems](https://hackernoon.com/data-privacy-decentralization-2f894c5d9a25)
+
+## Core contributors 
+[Tarun Gupta](https://github.com/tarun1475) & [Anubhav Girdhar](https://github.com/anubhavgirdhar)
+
+
 
 
 
