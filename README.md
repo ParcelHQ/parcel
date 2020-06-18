@@ -6,6 +6,8 @@ The most seamless and decentralised payments streaming service - built on Sablie
 ## Overview 
 Parcel is a service to manage continuous payments using multiple token swaps and money streaming for a group of people in one tap. It ensures on-chain payment approval from trusted authorities and data privacy via end to end encryption.
 
+[Product Demo](https://youtu.be/IrkHIhAx6qI)
+
 ## Abstract 
 - Sender selects their choice of currency, stream start date , stream end date & withdrawal time.
 - Trusted authorities signs the payment request.
