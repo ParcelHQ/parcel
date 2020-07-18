@@ -9,18 +9,18 @@ Parcel is a service to manage continuous payments using multiple token swaps and
 [Product Demo](https://youtu.be/IrkHIhAx6qI)
 
 ## Abstract 
-- Sender selects their choice of currency, stream start date , stream end date & withdrawal time.
+- Sender selects their choice of currency, stream start date, stream end date & withdrawal time.
 - Trusted authorities signs the payment request.
-- After successfull on-chain signature verificaton, Parcel contract swaps the chosen currency to the selected currencies of the recievers and streams in one 
+- After successful on-chain signature verification, Parcel contract swaps the chosen currency to the selected currencies of the receivers and streams in one 
 transaction.
 
 <img src="https://i.imgur.com/RXUFKqy.jpg" height="500" width="70%">
 
 ## Features 
-- Non custodial payments management service
-- Create and manage custom groups or individual(s) on simple to use dashboard.
+- Non-custodial payments management service
+- Create and manage custom groups or individual(s) on a simple to use dashboard.
 - Pay via ENS addresses. 
-- Data secured by end to end encryption i.e Only you and your trusted authorities can decrypt the data on their client side through public key cryptography.
+- Data secured by end-to-end encryption i.e Only you and your trusted authorities can decrypt the data on their client-side through public-key cryptography.
 
 ## Use cases
 - Payroll
@@ -31,12 +31,12 @@ transaction.
 - Parking
 
 ## Motivation 
-Centralised payments service providers like stripe and braintree charge high transaction fees and stores data in a centralised database prone to hacks and attacks hence compromising user's data privacy.
+Centralized payments service providers like Stripe and Braintree charge high transaction fees and store data in a centralized database prone to hacks and attacks hence compromising user's data privacy.
 Moreover, there is no provision for financial settlements as a function of time.
 
-Decentralised streaming protocol Sablier enables financial settlements as a function of time which opens up a lot of use cases that were neven possible in a centralised system.
+Decentralized streaming protocol Sablier enables financial settlements as a function of time which opens up a lot of use cases that were neven possible in a centralized system.
 
-However, the current scenario in decentralised payment streaming services lack the ability to conveniently manage custom use cases resulting in slow rate of adoption. We believe the space needs a seamless, secure, decentralised and end to end encrypted payment streaming service. 
+However, the current scenario in decentralised payment streaming services lack the ability to conveniently manage custom use cases resulting in a slow rate of adoption. We believe the space needs a seamless, secure, decentralized, and end-to-end encrypted payment streaming service. 
 
 ## Components 
 [Parcel Wallet :- Built at Hack Money Hackathon 2020](https://github.com/ParcelHQ/parcel-wallet)
