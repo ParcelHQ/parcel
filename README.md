@@ -15,7 +15,7 @@ Parcel enables organizations to seamlessly run crypto payroll (with multiple tok
 
 3. **[Parcel SDK](https://github.com/ParcelHQ/parcel-sdk)**: Includes all the methods to interact with IPFS gateway via end to end encryption and this component is being used on the client-side with Parcel UI.
 
-4. [Parcel Filecoin Archiving](https://github.com/ParcelHQ/parcel-filecoin-archiving): It includes the code for getting the IPFS hashes from smart contracts and fetch the data from IPFS and archive it on Filecoin using Textile's Powergate. The main purpose of this component is to make sure data is persisted on Filecoin. In case the data is unavailable on IPFS, it can retrieve the data from Filecoin and push it back to IPFS.
+4. **[Parcel Filecoin Archiving](https://github.com/ParcelHQ/parcel-filecoin-archiving)**: It includes the code for getting the IPFS hashes from smart contracts and fetch the data from IPFS and archive it on Filecoin using Textile's Powergate. The main purpose of this component is to make sure data is persisted on Filecoin. In case the data is unavailable on IPFS, it can retrieve the data from Filecoin and push it back to IPFS.
 
 ## How It's Made
 
