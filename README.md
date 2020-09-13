@@ -1,5 +1,5 @@
 # Parcel - Next Generation Crypto Payroll Service
-Parcel is a decentralized, crypto payroll service with built-in end-to-end data encryption using Sablier, Filecoin, IPFS, & Textile’s Powergate.
+Parcel is a decentralized, crypto payroll service with built-in end-to-end data encryption using Filecoin, IPFS, Matic Network & Biconomy.
 
 <img src="https://i.imgur.com/VDfOgsF.png" width="100%">
   
@@ -12,7 +12,7 @@ Parcel enables organizations to seamlessly run crypto payroll (with multiple tok
 
 ### Components
 
-1. **[Parcel Contracts](https://github.com/ParcelHQ/parcel-contracts/tree/massPayouts)**: Contains the smart contracts for creating an organization using ENS names, running mass payouts, and money streaming using Sablier protocol and Swap tokens using Uniswap. The idea of mass payouts is inspired by the initial version of Parcel which was built at [ETHGlobal's Hack Money Hackathon](https://hack.ethglobal.co/showcase/parcel-recUVCg0viNysWQAs). However, the code for the mass payouts in this version is different from what is being used in the initial version.
+1. **[Parcel Contracts](https://github.com/ParcelHQ/parcel-contracts/)**: Contains the smart contracts for creating an organization using ENS names, running mass payouts, and money streaming using Sablier protocol and Swap tokens using Uniswap. The idea of mass payouts is inspired by the initial version of Parcel which was built at [ETHGlobal's Hack Money Hackathon](https://hack.ethglobal.co/showcase/parcel-recUVCg0viNysWQAs). However, the code for the mass payouts in this version is different from what is being used in the initial version.
 
 2. **[Parcel UI](https://github.com/ParcelHQ/parcel-ui)**: Contains the UI for the application. Built with Reactjs, Ether.js, Emotion, & Reactstrap.
 
@@ -31,6 +31,8 @@ Parcel enables organizations to seamlessly run crypto payroll (with multiple tok
 5. Textile's Powegate for encrypted data archiving on Filecoin.
 6. Ethereum signature for generating encryption keys deterministically.
 7. Metamask for wallet management.
+8. Matic Network for onchain optimization and scalability of E2EE business logic. 
+9. Biconomy for network agnostic Meta Transactions i.e without changing layer1 rpc provider on Metamask.
 
 Let's understand the workflow for adding, getting and updating a user's data and documents.
 
@@ -38,12 +40,12 @@ Let's understand the workflow for adding, getting and updating a user's data and
 
 1. Generate encryption keys by signing a deterministic string using Ethereum private keys and then hash it with the hashing algorithm.
 2. Encrypt data with the generated key.
-3. Calculate the master hash from IPFS for the particular section e.g "Documents" in an organization and attach encrypted data to this master hash and then store it in a smart contract by doing a transaction and map it to index.
+3. Calculate the master hash from IPFS for the particular section e.g "Documents" in an organization and attach encrypted data to this master hash and then store it in a matic smart contract by doing a transaction and map it to index.
 
 ### Getting data
 
 1. Generate encryption keys by signing a deterministic string using Ethereum private keys and then hash it with the hashing algorithm.
-2. Fetch the IPFS hashes from the smart contract.
+2. Fetch the IPFS hashes from the matic smart contract.
 3. Get the encrypted data from the IPFS.
 4. Decrypt the data locally with the generated key.
 
@@ -54,7 +56,7 @@ Let's understand the workflow for adding, getting and updating a user's data and
 3. Get the encrypted data from the IPFS.
 4. Decrypt the data locally with the generated key.
 5. Encrypt the updated data with the generated key.
-6. Calculate the master hash for the updated encrypted data from IPFS and then store it in a smart contract by creating a transaction and mapping it to the same index.
+6. Calculate the master hash for the updated encrypted data from IPFS and then store it in a matic smart contract by creating a transaction and mapping it to the same index.
 
 
 ## References
