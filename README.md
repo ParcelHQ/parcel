@@ -7,7 +7,7 @@ Parcel is a decentralized, crypto payroll service with built-in end-to-end data 
 
 Parcel enables organizations to seamlessly run crypto payroll (with multiple tokens) through mass payouts and/or money streaming in one single transaction (via transaction batching). It ensures end-to-end encryption for organization data on IPFS and Filecoin and the encryption key is calculated deterministically through signatures using an Ethereum private key. Moreover, Parcel is built to empower people to receive payments in real-time and employers to run payroll and manage organization documents without any hassle.
 
-## Demo 
+## Website
 **[https://parcel.money](https://parcel.money)**
 
 ### Components
