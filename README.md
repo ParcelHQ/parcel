@@ -1,7 +1,7 @@
 # Parcel - Next Generation Crypto Payroll Service
 Parcel is a decentralized, crypto payroll service with built-in end-to-end data encryption using Gnosis Safe, Filecoin & IPFS.
 
-<img src="https://i.imgur.com/VDfOgsF.png" width="100%">
+<img src="https://imgur.com/0b8mwBL.png" width="100%">
   
 ## Description
 
