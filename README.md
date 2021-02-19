@@ -1,30 +1,48 @@
 # Parcel - Next Generation Crypto Payroll Service
-Parcel is a decentralized, crypto payroll service with built-in end-to-end data encryption using Gnosis Safe, Filecoin & IPFS.
+Parcel is a decentralized, crypto treasury management service with built-in end-to-end data encryption using Gnosis Safe, Filecoin & IPFS.
 
 <img src="https://imgur.com/0b8mwBL.png" width="100%">
-  
-## Description
 
-Parcel enables organizations to seamlessly run crypto payroll (with multiple tokens) through mass payouts and/or money streaming in one single transaction (via transaction batching). It ensures end-to-end encryption for organization data on IPFS and Filecoin and the encryption key is calculated deterministically through signatures using an Ethereum private key. Moreover, Parcel is built to empower people to receive payments in real-time and employers to run payroll and manage organization documents without any hassle.
+## Problem 
+
+1. Collborative friction in user experience.
+
+2. Payroll & Mass payouts are expensive
+
+3. Data Centralisation
+
+5. Error Prone Accounting
+
+## Solution
+1. One Click Mass Payouts 
+
+2. Significantly Cost Efficient Transactions (~ 40% cheaper)
+
+3. Automated recurring payments.
+
+4. Yield Optimisation
+
+5. Built in data privacy on top of distributed database viz. IPFS & Filecoin.
+
+6. Integrated accounting using CSV exports & industry standard tools like quickbooks & xero.
+
 
 ## Website
 **[https://parcel.money](https://parcel.money)**
 
 ### Components
 
-1. **[Parcel Contracts](https://github.com/ParcelHQ/parcel-contracts/)**: Contains the smart contracts for creating an organization using ENS names, running mass payouts, and money streaming using Sablier protocol and Swap tokens using Uniswap. The idea of mass payouts is inspired by the initial version of Parcel which was built at [ETHGlobal's Hack Money Hackathon](https://hack.ethglobal.co/showcase/parcel-recUVCg0viNysWQAs). However, the code for the mass payouts in this version is different from what is being used in the initial version.
+1. **[Parcel UI](https://github.com/ParcelHQ/parcel-frontend-app)**: Contains the UI for the application. Built with Reactjs, Ether.js, Emotion, & Reactstrap.
 
-2. **[Parcel UI](https://github.com/ParcelHQ/parcel-ui)**: Contains the UI for the application. Built with Reactjs, Ether.js, Emotion, & Reactstrap.
+2. **[Parcel SDK](https://github.com/ParcelHQ/parcel-sdk)**: Includes all the methods to interact with IPFS gateway via end to end encryption and this component is being used on the client-side with Parcel UI.
 
-3. **[Parcel SDK](https://github.com/ParcelHQ/parcel-sdk)**: Includes all the methods to interact with IPFS gateway via end to end encryption and this component is being used on the client-side with Parcel UI.
-
-4. **[Parcel Filecoin Archiving](https://github.com/ParcelHQ/parcel-filecoin-archiving)**: It includes the code for getting the IPFS hashes from smart contracts and fetch the data from IPFS and archive it on Filecoin using Textile's Powergate. The main purpose of this component is to make sure data is persisted on Filecoin. In case the data is unavailable on IPFS, it can retrieve the data from Filecoin and push it back to IPFS.
+3. **[Parcel Filecoin Archiving](https://github.com/ParcelHQ/parcel-filecoin-archiving)**: It includes the code for getting the IPFS hashes from smart contracts and fetch the data from IPFS and archive it on Filecoin using Textile's Powergate. The main purpose of this component is to make sure data is persisted on Filecoin. In case the data is unavailable on IPFS, it can retrieve the data from Filecoin and push it back to IPFS.
 
 ## How It's Made
 
 ### Tech Stack
 
-1. Sablier Protocol for money streaming.
+1. Asset Management using Gnosis safe.
 2. Uniswap for token swapping
 3. IPFS for encrypted data storage.
 4. Fleek for website hosting.
@@ -58,11 +76,6 @@ Let's understand the workflow for adding, getting and updating a user's data and
 5. Encrypt the updated data with the generated key.
 6. Calculate the master hash for the updated encrypted data from IPFS and then store it in a matic smart contract by creating a transaction and mapping it to the same index.
 
-
-## References
-- [EIP-1620](https://eips.ethereum.org/EIPS/eip-1620)
-- [Andreas Antonopoulos’ Keynote on Bitcoin, Lightning and Money Streaming](https://www.youtube.com/watch?v=gF_ZQ_eijPs)
-- [Issues with data privacy in centralised systems](https://hackernoon.com/data-privacy-decentralization-2f894c5d9a25)
 
 ## Core contributors 
 [Tarun Gupta](https://github.com/tarun1475) & [Anubhav Girdhar](https://github.com/anubhavgirdhar)
