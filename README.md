@@ -80,8 +80,7 @@ Let's understand the workflow for adding, getting and updating a user's data and
 1. Filecoin launchpad demo day - https://www.youtube.com/watch?v=z3UaRU0j8Vg&ab_channel=Filecoin
 2. Blog - https://medium.com/parcelhq/simplifying-crypto-payroll-at-scale-39c91afd1e9b
 
-## Core contributors 
-[Tarun Gupta](https://github.com/tarun1475) & [Anubhav Girdhar](https://github.com/anubhavgirdhar)
+
 
 
 
