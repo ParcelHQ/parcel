@@ -52,7 +52,7 @@ Parcel is a decentralized crypto treasury management service with built-in end-t
 8. Matic Network for onchain optimization and scalability of E2EE business logic. 
 9. Biconomy for network agnostic Meta Transactions i.e without changing layer1 rpc provider on Metamask.
 
-### How are using IPFS & Filecoin
+### How are we using IPFS & Filecoin
 We are using IPFS in multiple ways to build a highly open and verifiable treasury management system.
 
 1. Parcel's app UI will be hosted on IPFS as well on our servers to avoid single point of Failure and we will be using Fleek for that.
