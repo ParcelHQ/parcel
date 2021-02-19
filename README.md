@@ -1,5 +1,5 @@
 # Parcel - Simplifying crypto treasury management
-Parcel is a decentralized, crypto treasury management service with built-in end-to-end data encryption using Gnosis Safe, Filecoin & IPFS.
+Parcel is a decentralized crypto treasury management service with built-in end-to-end data encryption using Gnosis Safe, Filecoin & IPFS.
 
 <img src="https://images-parcel.fra1.digitaloceanspaces.com/dashboard.png" width="100%">
 
@@ -52,7 +52,22 @@ Parcel is a decentralized, crypto treasury management service with built-in end-
 8. Matic Network for onchain optimization and scalability of E2EE business logic. 
 9. Biconomy for network agnostic Meta Transactions i.e without changing layer1 rpc provider on Metamask.
 
-Let's understand the workflow for adding, getting and updating a user's data and documents.
+### How are using IPFS & Filecoin
+We are using IPFS in multiple ways to build a highly open and verifiable treasury management system.
+
+1. Parcel's app UI will be hosted on IPFS as well on our servers to avoid single point of Failure and we will be using Fleek for that.
+2. We are also using IPFS for our data layer i.e all the company data will be end to end encrypted using ethereum private keys & deterministic signatures and will be stored on IPFS. 
+
+   Moreover, in order to provide complete ownership of the data, all the IPFS CID hashes will be stored in a smart contract as an index so that if Parcel does not    exist tomorrow, users  can still retrieve the data and decrypt that using ethereum private keys. 
+
+
+   Also, to persist the data for long term we will using Filecoin storage using Textile's powergate.
+
+3. For every new release of our app, we will be publishing it to IPFS for the community to verify it.
+
+
+
+Now Let's understand the workflow for adding, getting and updating a user's data and documents.
 
 ### Adding Data
 
