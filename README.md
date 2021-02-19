@@ -1,7 +1,7 @@
 # Parcel - Simplifying crypto treasury management
 Parcel is a decentralized, crypto treasury management service with built-in end-to-end data encryption using Gnosis Safe, Filecoin & IPFS.
 
-<img src="https://imgur.com/a/wrqc4Uf" width="100%">
+<img src="https://images-parcel.fra1.digitaloceanspaces.com/dashboard.png" width="100%">
 
 ## Problem 
 
@@ -76,6 +76,9 @@ Let's understand the workflow for adding, getting and updating a user's data and
 5. Encrypt the updated data with the generated key.
 6. Calculate the master hash for the updated encrypted data from IPFS and then store it in a matic smart contract by creating a transaction and mapping it to the same index.
 
+## References
+1. Filecoin launchpad demo day - https://www.youtube.com/watch?v=z3UaRU0j8Vg&ab_channel=Filecoin
+2. Blog - https://medium.com/parcelhq/simplifying-crypto-payroll-at-scale-39c91afd1e9b
 
 ## Core contributors 
 [Tarun Gupta](https://github.com/tarun1475) & [Anubhav Girdhar](https://github.com/anubhavgirdhar)
