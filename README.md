@@ -32,7 +32,7 @@ Parcel is a decentralized crypto treasury management service with built-in end-t
 
 ### Components
 
-1. **[Parcel UI](https://github.com/ParcelHQ/parcel-frontend-app)**: Contains the UI for the application. Built with Reactjs, Ether.js, Emotion, & Reactstrap.
+1. **[Parcel UI](https://github.com/ParcelHQ/parcel-frontend-app/tree/public-data-release)**: Contains the UI for the application. Built with Reactjs, Ether.js, Emotion, & Reactstrap.
 
 2. **[Parcel SDK](https://github.com/ParcelHQ/parcel-sdk)**: Includes all the methods to interact with IPFS gateway via end to end encryption and this component is being used on the client-side with Parcel UI.
 
